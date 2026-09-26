@@ -100,7 +100,7 @@ Edit `src/main/resources/sites.json`:
 ```json
 {
   "name": "My Portfolio",
-  "url": "https://your-site.com",
+  "url": "https://khushi-jha11.github.io/SiteWatch/",
   "expectedTitle": "Your Name",
   "requiredSelectors": ["nav", "footer", "#contact-form"]
 }
