@@ -1,0 +1,19 @@
+# Maven
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs / OS
+*.log
+.DS_Store

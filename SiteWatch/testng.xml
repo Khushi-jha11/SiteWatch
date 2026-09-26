@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SiteWatch Suite" parallel="methods" thread-count="3" data-provider-thread-count="3" verbose="1">
+
+  <listeners>
+    <listener class-name="com.sitewatch.tests.ResultsListener"/>
+  </listeners>
+
+  <!-- Uses the browser from config.properties (default: chrome) -->
+  <test name="Site health checks">
+    <classes>
+      <class name="com.sitewatch.tests.PageLoadTest"/>
+      <class name="com.sitewatch.tests.ElementTest"/>
+      <class name="com.sitewatch.tests.LinkTest"/>
+    </classes>
+  </test>
+
+  <!-- Multi-browser: uncomment to also run everything on Firefox.
+  <test name="Site health checks - Firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.sitewatch.tests.PageLoadTest"/>
+      <class name="com.sitewatch.tests.ElementTest"/>
+      <class name="com.sitewatch.tests.LinkTest"/>
+    </classes>
+  </test>
+  -->
+
+  <!-- Run only some groups (smoke | performance | regression | links):
+       mvn test -Dgroups=smoke -->
+</suite>

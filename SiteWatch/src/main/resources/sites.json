@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Example",
+    "url": "https://example.com",
+    "expectedTitle": "Example Domain",
+    "requiredSelectors": ["h1", "p a"]
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org",
+    "expectedTitle": "Wikipedia",
+    "requiredSelectors": ["input#searchInput", ".central-featured-logo"]
+  },
+  {
+    "name": "Python.org",
+    "url": "https://www.python.org",
+    "expectedTitle": "Python",
+    "requiredSelectors": ["nav", "input#id-search-field", "footer"]
+  },
+  {
+    "name": "SauceDemo",
+    "url": "https://www.saucedemo.com",
+    "expectedTitle": "Swag Labs",
+    "requiredSelectors": ["#user-name", "#password", "#login-button"]
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "expectedTitle": "GitHub",
+    "requiredSelectors": ["header", "footer"]
+  }
+]
