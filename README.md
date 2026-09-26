@@ -100,7 +100,7 @@ Edit `src/main/resources/sites.json`:
 ```json
 {
   "name": "My Portfolio",
-  "url": "https://khushi-jha11.github.io/SiteWatch/",
+  "url": "https://your-site.com",
   "expectedTitle": "Your Name",
   "requiredSelectors": ["nav", "footer", "#contact-form"]
 }
@@ -114,7 +114,7 @@ Tune thresholds in `src/main/resources/config.properties` (max load time, link t
 2. **Settings → Pages** → set Source to **GitHub Actions**.
 3. **Settings → Actions → General** → under Workflow permissions, choose **Read and write permissions** (lets the workflow commit the dashboard back and deploy it).
 4. Push to `main`, or trigger the workflow manually from the **Actions** tab (`workflow_dispatch`). It also runs automatically every day at 06:00 UTC — edit the `cron` line in `.github/workflows/monitor.yml` to change that.
-5. Your dashboard goes live at `https://YOUR_USERNAME.github.io/SiteWatch/`.
+5. Your dashboard goes live at `https://khushi-jha11.github.io/SiteWatch/`.
 
 ## Roadmap ideas
 
