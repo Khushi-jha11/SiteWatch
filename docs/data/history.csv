@@ -44,3 +44,8 @@ timestamp,site,url,status,load_time_ms,title,elements_found,elements_total,links
 "2026-09-30T12:13:48Z","Python.org","https://www.python.org","PASS",620,"Welcome to Python.org",0,0,60,0,"",""
 "2026-09-30T12:13:49Z","SauceDemo","https://www.saucedemo.com","PASS",385,"Swag Labs",0,0,0,0,"",""
 "2026-09-30T12:13:48Z","Wikipedia","https://www.wikipedia.org","FAIL",181,"Example Domain",0,0,60,0,"Title mismatch: expected text 'Wikipedia'","screenshots/wikipedia_page_20260930-121349.png"
+"2026-10-01T12:48:03Z","Example","https://example.com","FAIL",389,"Welcome to Python.org",0,0,1,0,"Title mismatch: expected text 'Example Domain'","screenshots/example_page_20261001-124804.png"
+"2026-10-01T12:48:05Z","GitHub","https://github.com","PASS",1530,"GitHub · Change is constant. GitHub keeps you ahead. · GitHub",0,0,60,0,"",""
+"2026-10-01T12:48:03Z","Python.org","https://www.python.org","PASS",389,"Welcome to Python.org",0,0,1,0,"",""
+"2026-10-01T12:48:05Z","SauceDemo","https://www.saucedemo.com","PASS",364,"Swag Labs",0,0,0,0,"",""
+"2026-10-01T12:48:03Z","Wikipedia","https://www.wikipedia.org","PASS",549,"Wikipedia",0,0,1,0,"",""
