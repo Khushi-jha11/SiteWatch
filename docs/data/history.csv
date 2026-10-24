@@ -159,3 +159,8 @@ timestamp,site,url,status,load_time_ms,title,elements_found,elements_total,links
 "2026-10-23T11:18:07Z","Python.org","https://www.python.org","PASS",942,"Welcome to Python.org",3,3,60,0,"",""
 "2026-10-23T11:18:08Z","SauceDemo","https://www.saucedemo.com","PASS",343,"Swag Labs",3,3,0,0,"",""
 "2026-10-23T11:18:07Z","Wikipedia","https://www.wikipedia.org","PASS",1230,"Wikipedia",2,2,60,0,"",""
+"2026-10-24T10:37:29Z","Example","https://example.com","PASS",58,"Example Domain",0,0,1,0,"",""
+"2026-10-24T10:37:32Z","GitHub","https://github.com","PASS",2430,"GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub",0,0,60,0,"",""
+"2026-10-24T10:37:29Z","Python.org","https://www.python.org","FAIL",58,"Example Domain",0,0,1,0,"Title mismatch: expected text 'Python'","screenshots/python-org_page_20261024-103730.png"
+"2026-10-24T10:37:32Z","SauceDemo","https://www.saucedemo.com","PASS",742,"Swag Labs",0,0,0,0,"",""
+"2026-10-24T10:37:29Z","Wikipedia","https://www.wikipedia.org","FAIL",58,"Example Domain",0,0,0,0,"Title mismatch: expected text 'Wikipedia' | Link check error: UnreachableBrowserException","screenshots/wikipedia_page_20261024-103731.png"
