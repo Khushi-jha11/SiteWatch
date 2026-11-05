@@ -219,3 +219,8 @@ timestamp,site,url,status,load_time_ms,title,elements_found,elements_total,links
 "2026-11-04T14:03:28Z","Python.org","https://www.python.org","PASS",915,"Welcome to Python.org",3,3,60,0,"",""
 "2026-11-04T14:03:29Z","SauceDemo","https://www.saucedemo.com","PASS",316,"Swag Labs",3,3,0,0,"",""
 "2026-11-04T14:03:28Z","Wikipedia","https://www.wikipedia.org","PASS",894,"Wikipedia",2,2,1,0,"",""
+"2026-11-05T14:24:32Z","Example","https://example.com","PASS",92,"Example Domain",0,0,60,0,"",""
+"2026-11-05T14:24:36Z","GitHub","https://github.com","PASS",2370,"GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub",0,0,60,5,"Broken links: 504 https://github.com/features/copilot, ERR https://github.com/marketplace, 504 https://github.com/trending",""
+"2026-11-05T14:24:32Z","Python.org","https://www.python.org","FAIL",92,"Example Domain",0,0,60,0,"Title mismatch: expected text 'Python'","screenshots/python-org_page_20261105-142435.png"
+"2026-11-05T14:24:35Z","SauceDemo","https://www.saucedemo.com","PASS",661,"Swag Labs",0,0,0,0,"",""
+"2026-11-05T14:24:32Z","Wikipedia","https://www.wikipedia.org","FAIL",92,"Example Domain",0,0,60,0,"Title mismatch: expected text 'Wikipedia'","screenshots/wikipedia_page_20261105-142435.png"
